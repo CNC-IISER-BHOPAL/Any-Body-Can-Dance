@@ -22,19 +22,20 @@ We train and evaluate on Ubuntu 16.04, so if you don't have linux environment, y
 ## Full process
 #### Pose2vid network
 
-![](/result/pic1.png)
+![](/result/fig1.png)
 #### Make source pictures
 * Put source video mv.mp4 in `./data/source/` and run `make_source.py`, the label images and coordinate of head will save in `./data/source/test_label_ori/` and `./data/source/pose_souce.npy` (will use in step6). If you want to capture video by camera, you can directly run `./src/utils/save_img.py`
 #### Make target pictures
 * Put target video mv.mp4 in `./data/target/` and run `make_target.py`, `pose.npy` will save in `./data/target/`, which contain the coordinate of faces (will use in step6).
 #### Train and use pose2vid network
 * Run `train_pose2vid.py` and check loss and full training process in `./checkpoints/`
+![](/result/fig3.png)
 * If you break the traning and want to continue last training, set `load_pretrain = './checkpoints/target/` in `./src/config/train_opt.py`
 * Run `normalization.py` rescale the label images, you can use two sample images from `./data/target/train/train_label/` and `./data/source/test_label_ori/` to complete normalization between two skeleton size
 * Run `transfer.py` and get results in `./result`
 #### Face enhancement network
 
-![](/result/pic2.png)
+![](/result/fig2.png)
 #### Train and use face enhancement network
 * Run `./face_enhancer/prepare.py` and check the results in `./data/face/test_sync` and `./data/face/test_real`.
 * Run `./face_enhancer/main.py` train face enhancer and run`./face_enhancer/enhance.py` to gain results <br>
