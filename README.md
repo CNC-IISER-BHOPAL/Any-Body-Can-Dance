@@ -71,6 +71,6 @@ This is comparision in original (left), generated image before face enhancement 
 windows 10 <br>
 Python 3.7 <br>
 Pytorch 1.0  <br>
-OpenCV 3.4.4  <br>
+OpenCV 3.4.2.17  <br>
 
 
