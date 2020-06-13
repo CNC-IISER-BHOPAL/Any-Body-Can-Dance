@@ -6,7 +6,15 @@ We train and evaluate on windows 10 in syder 4.1
 
 ## Reference:
 
+https://arxiv.org/pdf/1808.07371.pdf
+
 https://github.com/CUHKSZ-TQL/EverybodyDanceNow_reproduce_pytorch
+
+https://carolineec.github.io/everybody_dance_now/
+
+https://getsway.app/
+
+https://people.eecs.berkeley.edu/~efros/
 
 ## Pre-trained models and source video
 * Download vgg19-dcbb9e9d.pth.crdownload [here](https://drive.google.com/file/d/1JG-pLXkPmyx3o4L33rG5WMJKMoOjlXhl/view?usp=sharing) and put it in `./src/pix2pixHD/models/`  <br>
@@ -60,9 +68,9 @@ This is comparision in original (left), generated image before face enhancement 
 - [ ] Temporal smoothing
 
 ## Environments
-Ubuntu 16.04 <br>
-Python 3.6.5 <br>
-Pytorch 0.4.1  <br>
+windows 10 <br>
+Python 3.7 <br>
+Pytorch 1.0  <br>
 OpenCV 3.4.4  <br>
 
 
