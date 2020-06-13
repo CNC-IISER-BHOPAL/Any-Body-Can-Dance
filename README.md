@@ -1,14 +1,12 @@
 # EverybodyDanceNow reproduced in pytorch
 
-Written by Peihuan Wu, Jinghong Lin, Yutao Liao, Wei Qing and Yan Xu, including normalization and face enhancement parts.<br>
+Written by Aman Arya under supervision of Parthiban Srinivasan .<br>
 <br>
-We train and evaluate on Ubuntu 16.04, so if you don't have linux environment, you can set `nThreads=0` in `EverybodyDanceNow_reproduce_pytorch/src/config/train_opt.py`.
+We train and evaluate on windows 10 in syder 4.1
 
 ## Reference:
 
-[nyoki-mtl](https://github.com/nyoki-mtl) pytorch-EverybodyDanceNow
-
-[Lotayou](https://github.com/Lotayou) everybody_dance_now_pytorch
+https://github.com/CUHKSZ-TQL/EverybodyDanceNow_reproduce_pytorch
 
 ## Pre-trained models and source video
 * Download vgg19-dcbb9e9d.pth.crdownload [here](https://drive.google.com/file/d/1JG-pLXkPmyx3o4L33rG5WMJKMoOjlXhl/view?usp=sharing) and put it in `./src/pix2pixHD/models/`  <br>
