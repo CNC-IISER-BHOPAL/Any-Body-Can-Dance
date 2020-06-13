@@ -30,9 +30,12 @@ https://people.eecs.berkeley.edu/~efros/
 
 ![](/result/fig1.png)
 #### Make source pictures
-* Put source video mv.mp4 in `./data/source/` and run `make_source.py`, the label images and coordinate of head will save in `./data/source/test_label_ori/` and `./data/source/pose_souce.npy` (will use in step6). If you want to capture video by camera, you can directly run `./src/utils/save_img.py`
+* Put source video mv.mp4 in `./data/source/`  
+* Run `make_source.py`, the label images and coordinate of head will save in `./data/source/test_label_ori/` and `./data/source/pose_souce.npy` (will use in step6). 
+* If you want to capture video by camera, you can directly run `./src/utils/save_img.py`
 #### Make target pictures
-* Put target video mv.mp4 in `./data/target/` and run `make_target.py`, `pose.npy` will save in `./data/target/`, which contain the coordinate of faces (will use in step6).
+* Put target video mv.mp4 in `./data/target/` 
+* Run `make_target.py`, `pose.npy` will save in `./data/target/`, which contain the coordinate of faces (will use in step6).
 ![](/result/fig3.png)
 #### Train and use pose2vid network
 * Run `train_pose2vid.py` and check loss and full training process in `./checkpoints/`
