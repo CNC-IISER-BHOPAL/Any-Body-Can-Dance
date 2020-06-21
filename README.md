@@ -3,6 +3,20 @@
 Written by Aman Arya under supervision of Parthiban Srinivasan .<br>
 <br>
 We train and evaluate on windows 10 in syder 4.1
+## About:
+Project Title : Any Body Can Dance
+
+Youtube link :  https://www.youtube.com/watch?v=LWEm9bDlVmY&pbjreload=101 
+ 
+Faculty supervisor: Parthiban Srinivasan ( Adjunct Faculty (Artificial Intelligence) at IISER, Bhopal and CEO, Parthys Reverse Informatics )
+
+https://in.linkedin.com/in/parthiban-srinivasan-183608b
+
+Github code: https://github.com/aman-arya/EverybodyDanceNow_reproduce_pytorch
+
+Research paper : https://arxiv.org/pdf/1808.07371.pdf
+
+Presentation : https://drive.google.com/file/d/1suHPXofvexaztPkBwDECmwHiTjiOQhq5/view?usp=sharing  
 
 ## Reference:
 
